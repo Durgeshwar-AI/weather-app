@@ -68,7 +68,7 @@ function undone() {
 }
 async function curpos(lat, long) {
   const response = await fetch(
-    `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&appid=${key}&units=metric`
+    `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&appid=${key}&units=metric`
   );
   data = await response.json();
   console.log(data);
