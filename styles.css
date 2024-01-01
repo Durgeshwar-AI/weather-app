@@ -13,7 +13,7 @@ body{
     color: rgb(0, 13, 255)
 }
 .container{
-    background-image:url("/images/back.JPEG");
+    background-image:url("/images/back.jpeg");
     background-repeat:no-repeat;
     background-size:cover;
     text-align: center;
