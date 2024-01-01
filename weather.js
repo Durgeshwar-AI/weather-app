@@ -32,21 +32,21 @@ function execute() {
   let image = document.getElementById("picture");
   let status = data.weather[0].main;
   if (status === "Clouds") {
-    image.src = "images/cloudy.png";
+    image.src = "./images/cloudy.png";
   } else if (status === "Rain") {
-    image.src = "images/rainy.png";
+    image.src = "./images/rainy.png";
   } else if (status === "Clear") {
-    image.src = "images/clear.png";
+    image.src = "./images/clear.png";
   } else if (status === "Snow") {
-    image.src = "images/snowy.png";
+    image.src = "./images/snowy.png";
   } else if (status === "Sunny") {
-    image.src = "images/sunny.png";
+    image.src = "./images/sunny.png";
   } else if (status === "Thunderstorm") {
-    image.src = "images/thunderstrom.png";
+    image.src = "./images/thunderstrom.png";
   } else if (status === "Drizzle") {
-    image.src = "images/drizzle.png";
+    image.src = "./images/drizzle.png";
   } else if (status === "Mist" || status === "Haze" || status === "Fog") {
-    image.src = "images/mist.png";
+    image.src = "./images/mist.png";
   }
 }
 const loc = document.getElementById("location");
