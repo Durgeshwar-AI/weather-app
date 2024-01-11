@@ -73,6 +73,9 @@ body{
     .container{
         width: 100vw;
     }
+    #location{
+        font-size: 70%;
+    }
 }
 @media screen and (min-width:500px){
     .others{

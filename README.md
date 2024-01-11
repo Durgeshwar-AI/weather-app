@@ -1,1 +1,2 @@
 # weather-app
+This is a weather app that fetches the current data of the weather around a city and shows the current temperature , wind speed, and humidity around an area. It can also ask the browaer to find get the location of the device and search the weather of the nearest city that is registered in the database.
